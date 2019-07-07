@@ -6,6 +6,12 @@ class Projects extends Component {
         return ( 
             <div id="projects">
                 <h1>Projects</h1>
+                <div className="projectContainer">
+                <img src="../../imgs/contactmanagmentNew.png"></img>
+                <div className="overlay">
+                    <div><img src="../../img/github.png" alt="git"/></div>
+                </div>
+                </div>
             </div>
          );
     }

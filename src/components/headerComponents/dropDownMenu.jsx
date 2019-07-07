@@ -15,11 +15,11 @@ class dropdown extends Component {
                     Menu
                 </a>
 
-            <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a className="dropdown-item" href="https://github.com/evanallen13">Projects</a>
-                <a className="dropdown-item" href="https://github.com/evanallen13">Another action</a>
-            <a className="dropdown-item" href="https://github.com/evanallen13">Something else here</a>
-            </div>
+                <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a className="dropdown-item" href="#projects">Projects</a>
+                    <a className="dropdown-item" href="https://github.com/evanallen13">Another action</a>
+                    <a className="dropdown-item" href="https://github.com/evanallen13">Something else here</a>
+                </div>
             </div>
             </div>
         );
