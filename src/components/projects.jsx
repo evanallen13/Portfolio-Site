@@ -5,6 +5,7 @@ class Projects extends Component {
     render() { 
         return ( 
             <div id="projects">
+                <a href="#top">Back to top of page</a>
                 <h1>Projects</h1>
                 <div className="projectContainer">
                 <img src="../../imgs/contactmanagmentNew.png"></img>
