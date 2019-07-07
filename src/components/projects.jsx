@@ -9,7 +9,7 @@ class Projects extends Component {
                 <div className="projectContainer">
                 <img src="../../imgs/contactmanagmentNew.png"></img>
                 <div className="overlay">
-                    <div><img src="../../img/github.png" alt="git"/></div>
+                    <div><img src="../../imgs/github.png" alt="git"/></div>
                 </div>
                 </div>
             </div>
