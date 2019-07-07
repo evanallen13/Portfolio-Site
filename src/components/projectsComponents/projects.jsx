@@ -19,6 +19,9 @@ class Projects extends Component {
                                     <a href="https://github.com/evanallen13/IS-455-Project-4.0?files=1" target="_blank">
                                         <img src="../../imgs/github.png" alt="git"/>
                                     </a>
+                                    <a href="https://is455-project-5c969.firebaseapp.com/" target="_blank">
+                                        <img src="../../imgs/eye.png" alt="git"/>
+                                    </a>
                                 </div>
                             </div>
                             <div className="project" className="col">
@@ -29,6 +32,9 @@ class Projects extends Component {
                                 <div className="overlay">
                                     <a href="https://github.com/evanallen13/React-Calculator?files=1" target="_blank">
                                         <img src="../../imgs/github.png" alt="git"/>
+                                    </a>
+                                    <a href="https://frosty-payne-feb44d.netlify.com/" target="_blank">
+                                        <img src="../../imgs/eye.png" alt="git"/>
                                     </a>
                                 </div>
                             </div>

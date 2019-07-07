@@ -55,9 +55,12 @@ html{
 
 @media all and (max-width: 500px){
     #header{
-        height: 600px;
+        height: 100vh;
+    }
+    #contactInfo{
+        padding-top: 100px;
     }
     #projects{
-        height: 650px;
+        height: 200vh;
     }
 }
