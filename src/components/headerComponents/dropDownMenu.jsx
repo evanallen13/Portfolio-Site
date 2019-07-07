@@ -17,7 +17,7 @@ class dropdown extends Component {
 
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                     <a className="dropdown-item" href="#projects">Projects</a>
-                    <a className="dropdown-item" href="../../resume.docx" download>Resume</a>
+                    <a className="dropdown-item" href="../../resume.docx" download="Evan_Allen_Resume">Resume</a>
                 </div>
             </div>
             </div>
