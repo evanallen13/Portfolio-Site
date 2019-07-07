@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Info from './headerComponents/contactInfo'
+import Info from './contactInfo'
 
 class HeaderDiv extends Component {
     state = {  }
