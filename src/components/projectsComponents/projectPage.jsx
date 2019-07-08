@@ -18,7 +18,7 @@ class ProjectsPage extends Component {
             <div id="projects">
                 <h1>Projects</h1>
                 <div className="projectContainer">
-                    <div className="projects" className="d-flex justify-content-center">
+                    <div className="projects" className="row justify-content-center">
                             {projectsArray.map(project =>
                                 <Project
                                     key={project.projectTitle}
