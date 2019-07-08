@@ -1,29 +1,27 @@
 import React, { Component } from 'react';
 
-class Projects extends Component {
-    state = {  }
+class Project extends Component {
     render() { 
-        return ( 
-            <div id="projects">
-                <h1>Projects</h1>
-                <div className="projectContainer">
-                    <div className="projects">
-                        <div className="row">
+        return (  
+            <div className="project" className="col">
+                <h4>{this.props.Title}</h4>
+                <img src={this.props.Img} alt="project"></img>
+                <div>
+                <a href={this.props.Github} target="_blank" rel="noopener noreferre">
+                    <img src="../../imgs/github.png" alt="git"/>
+                </a>
+                <a href={this.props.Hosting} target="_blank">
+                    <img src="../../imgs/eye.png" alt="git"/>
+                </a>
+                </div>
+            </div>
+        );
+    }
+}
+ 
+export default Project;
 
-                            <div className="project" className="col">
-                                <h4 className="projectTitle">Contact Manager</h4>
-                                <div className="projectPicture">
-                                    <img src="../../imgs/contactmanagmentNew.png"></img>
-                                </div>
-                                <div className="overlay">
-                                    <a href="https://github.com/evanallen13/IS-455-Project-4.0?files=1" target="_blank">
-                                        <img src="../../imgs/github.png" alt="git"/>
-                                    </a>
-                                    <a href="https://is455-project-5c969.firebaseapp.com/" target="_blank">
-                                        <img src="../../imgs/eye.png" alt="git"/>
-                                    </a>
-                                </div>
-                            </div>
+{/*
                             <div className="project" className="col">
                                 <h4 className="projectTitle">React Calculator</h4>
                                 <div className="projectPicture">
@@ -37,14 +35,4 @@ class Projects extends Component {
                                         <img src="../../imgs/eye.png" alt="git"/>
                                     </a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#top">Back to top of page</a>
-            </div>
-         );
-    }
-}
- 
-export default Projects;
+                            </div> */}
