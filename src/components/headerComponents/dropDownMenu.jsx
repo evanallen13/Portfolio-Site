@@ -12,7 +12,7 @@ class dropdown extends Component {
             <div id="dropDownMenu"> 
                 <div className="dropdown show">
                     <a className="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Menu
+                    Go To
                 </a>
 
                 <div className="dropdown-menu" aria-labelledby="dropdownMenuLink">
