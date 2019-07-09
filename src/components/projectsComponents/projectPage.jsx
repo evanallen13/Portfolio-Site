@@ -13,6 +13,10 @@ class ProjectsPage extends Component {
                 Img: "../../imgs/calc.png",
                 Github: "https://github.com/evanallen13/React-Calculator?files=1",
                 Hosting: "https://frosty-payne-feb44d.netlify.com/"},
+            {Title: "Vanilla Js Sudoku",
+                Img: "../../imgs/sudoku.png",
+                Github: "https://github.com/evanallen13/Sudoku-JS",
+                Hosting: "https://sudoku-cb7e7.firebaseapp.com/"},
           ]
         return ( 
             <div id="projects">
@@ -29,8 +33,6 @@ class ProjectsPage extends Component {
                                 </Project>)}
                     </div>
                 </div>
-
-                <a href="#top">Back to top of page</a>
             </div>
          );
     }

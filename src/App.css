@@ -18,6 +18,8 @@ h1{
 #header a{
     vertical-align: middle;
     color: #f3f0e2;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 #contactInfo{
     padding-top: 200px;
@@ -36,7 +38,6 @@ h1{
 #projects{
     background-color: #f3f0e2;
     text-align: center;
-    padding-top: 20px;
     height: Calc(100vh + 50px);
 }
 #projects h1{
@@ -47,10 +48,12 @@ h1{
 }
 #projects h4{
     margin:0;
+    margin-bottom: 10px;
 }
 .project{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
 }
 .project img{
     padding-left: 10px;
@@ -67,7 +70,7 @@ h1{
     margin: 0;
     color: #f3f0e2;
     font-size: 50px;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 

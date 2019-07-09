@@ -16,7 +16,7 @@ class Project extends Component {
                 </div>
             </div>
         );
-    }
+    }  
 }
  
 export default Project;

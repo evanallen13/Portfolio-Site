@@ -13,7 +13,7 @@ class Info extends Component {
                     <a href="https://github.com/evanallen13" target="_blank">
                         <img src="../../imgs/github.png" alt="github"/>
                         </a>
-                    <a href="tel:714-254-2562">
+                    <a href="tel:714-264-2562">
                         <img src="../../imgs/call.png" alt="phone"/></a><br/>
                     <Dropdown></Dropdown>
             </div>
