@@ -1,23 +1,10 @@
 import React, { Component } from 'react';
 import Project from './projects'
+import { projectsArray } from './projectsArray.js'
 
 class ProjectsPage extends Component {
 
     render() { 
-        const projectsArray = [
-            {Title: "Contact Manager",
-                Img: "../../imgs/contactmanagmentNew.png",
-                Github: "https://github.com/evanallen13/IS-455-Project-4.0?files=1",
-                Hosting: "https://is455-project-5c969.firebaseapp.com/"},
-            {Title: "React Calculator",
-                Img: "../../imgs/calc.png",
-                Github: "https://github.com/evanallen13/React-Calculator?files=1",
-                Hosting: "https://frosty-payne-feb44d.netlify.com/"},
-            {Title: "Vanilla Js Sudoku",
-                Img: "../../imgs/sudoku.png",
-                Github: "https://github.com/evanallen13/Sudoku-JS",
-                Hosting: "https://sudoku-cb7e7.firebaseapp.com/"},
-          ]
         return ( 
             <div id="projects">
                 <h1>Projects</h1>
@@ -29,7 +16,9 @@ class ProjectsPage extends Component {
                                     Title={project.Title}
                                     Img={project.Img}
                                     Github={project.Github}
-                                    Hosting={project.Hosting}>
+                                    Hosting={project.Hosting}
+                                    Skills={project.Skills}>
+
                                 </Project>)}
                     </div>
                 </div>
