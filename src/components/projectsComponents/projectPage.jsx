@@ -12,12 +12,13 @@ class ProjectsPage extends Component {
                     <div className="projects" className="row justify-content-center">
                             {projectsArray.map(project =>
                                 <Project
-                                    key={project.projectTitle}
+                                    key={project.Title}
                                     Title={project.Title}
                                     Img={project.Img}
                                     Github={project.Github}
                                     Hosting={project.Hosting}
-                                    Skills={project.Skills}>
+                                    Skills={project.Skills}
+                                    Learned={project.Learned}>
 
                                 </Project>)}
                     </div>

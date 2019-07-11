@@ -10,7 +10,7 @@ class Project extends Component {
                 <a href={this.props.Github} target="_blank" rel="noopener noreferre" >
                     <img src="../../imgs/github.png" alt="git" className="projectImg"/>
                 </a>
-                <a href={this.props.Hosting} target="_blank">
+                <a href={this.props.Hosting} target="_blank" rel="noopener noreferrer">
                     <img src="../../imgs/eye.png" alt="git" className="projectImg"/>
                 </a>
                 </div>
@@ -20,6 +20,7 @@ class Project extends Component {
                         <img src={skill} alt="skill" className='skill'></img>
                     )}
                     <h5>What I Learned:</h5>
+                    <p className="learned">{this.props.Learned}</p>
                 </div>
             </div>
         );
