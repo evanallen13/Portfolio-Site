@@ -126,4 +126,12 @@ h1{
     #projects{
         height: 200vh;
     }
+    .projectFooter{
+        top: 30%;
+    }
+    .learned{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
 }
