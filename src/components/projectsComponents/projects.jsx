@@ -7,7 +7,7 @@ class Project extends Component {
                 <h4>{this.props.Title}</h4>
                 <img src={this.props.Img} alt="project" className="projectBigImg"></img>
                 <div className="projectFooter">
-                <a href={this.props.Github} target="_blank" rel="noopener noreferre" >
+                <a href={this.props.Github} target="_blank" rel="noopener noreferrer" >
                     <img src="../../imgs/github.png" alt="git" className="projectImg"/>
                 </a>
                 <a href={this.props.Hosting} target="_blank" rel="noopener noreferrer">
