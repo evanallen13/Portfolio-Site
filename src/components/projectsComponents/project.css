@@ -1,0 +1,64 @@
+#projects{
+    background-color: #f3f0e2;
+    text-align: center;
+    min-height: Calc(100vh + 50px);
+    overflow: auto;
+}
+#projects h1{
+    margin: 0;
+    color: rgb(45, 93, 124);
+    font-size: 50px;
+    padding-top: 30px;
+}
+#projects h4{
+    margin:0;
+    margin-bottom: 10px;
+}
+.project{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+.project:hover .projectBigImg{
+    opacity: 0.3;
+}
+.project:hover .projectFooter{
+    opacity: 0.9;
+}
+.projectImg{
+    background: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.projectFooter{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    display: flex;
+}
+.projectFooter a{
+    display: inline;
+}
+
+.learned{
+    width: 20vw;
+    text-align: initial;
+}
+
+
+.skill{
+    margin-left: 3px;
+    margin-right: 3px;
+}

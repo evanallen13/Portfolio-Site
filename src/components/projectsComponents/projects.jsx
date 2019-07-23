@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './project.css'
 
 class Project extends Component {
     render() { 
@@ -8,10 +9,10 @@ class Project extends Component {
                 <img src={this.props.Img} alt="project" className="projectBigImg"></img>
                 <div className="projectFooter">
                 <a href={this.props.Github} target="_blank" rel="noopener noreferrer" >
-                    <img src="../../imgs/github.png" alt="git" className="projectImg"/>
+                    <img src="../../imgs/projects/github.png" alt="git" className="projectImg"/>
                 </a>
                 <a href={this.props.Hosting} target="_blank" rel="noopener noreferrer">
-                    <img src="../../imgs/eye.png" alt="git" className="projectImg"/>
+                    <img src="../../imgs/projects/eye.png" alt="git" className="projectImg"/>
                 </a>
                 </div>
                 <div className="experience">
