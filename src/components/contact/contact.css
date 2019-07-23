@@ -1,0 +1,17 @@
+#contact{
+    background-color: #f3f0e2;
+    text-align: center;
+    min-height: Calc(100vh + 50px);
+    overflow: auto;
+}
+#contact h1{
+    margin: 0;
+    color: rgb(45, 93, 124);
+    font-size: 50px;
+    padding-top: 40px;
+}
+#contact h2{
+    margin-top: 40px;
+}
+
+

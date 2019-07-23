@@ -28,6 +28,11 @@ h1{
 #Nav{
     margin-top: 10px;
 }
+#Nav a{
+    margin: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+}
 .NavBtn{
     width: 150px;
     background-color: #f3f0e2;
