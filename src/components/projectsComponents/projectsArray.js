@@ -15,7 +15,7 @@ export const projectsArray = [
         Skills: [javascript,firebase,html5,css3,node],
         Learned: "This is a project I used build a single-page web application that cycles through mutiple forms. I used Firebase as both the database and hosting.",
     },
-    {Title: "Sudoku",
+    {Title: "Portfolio Website",
         Img: "../../imgs/projects/portfolio.png",
         Github: "https://github.com/evanallen13/Portfolio-Site",
         Hosting: "https://www.evanallen13.com//",
