@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Info from './contactInfo'
 import NavBar from './NavBar'
+import './header.css'
 
 class HeaderDiv extends Component {
     state = {  }

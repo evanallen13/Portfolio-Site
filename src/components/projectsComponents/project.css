@@ -62,3 +62,17 @@
     margin-left: 3px;
     margin-right: 3px;
 }
+
+@media all and (max-width: 500px){
+    #projects{
+        height: 200vh;
+    }
+    .projectFooter{
+        top: 30%;
+    }
+    .learned{
+        width: 80vw;
+        margin: 0 auto;
+    }
+
+}

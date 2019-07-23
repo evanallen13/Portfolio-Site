@@ -1,0 +1,15 @@
+@media all and (max-width: 500px){
+    #header{
+        height: 100vh;
+    }
+    .NavBtn{
+        margin: 0;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        
+    }
+    #nameH1{
+        padding-top: 30px;
+    }
+
+}
