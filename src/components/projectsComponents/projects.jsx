@@ -3,7 +3,8 @@ import './project.css'
 
 class Project extends Component {
     render() { 
-        return (  
+        return ( 
+            <div>   
             <div className="project">
                 <h4>{this.props.Title}</h4>
                 <img src={this.props.Img} alt="project" className="projectBigImg"></img>
@@ -15,6 +16,7 @@ class Project extends Component {
                     <img src="../../imgs/projects/eye.png" alt="git" className="projectImg"/>
                 </a>
                 </div>
+            </div>
                 <div className="experience">
                     <h5>Skills:</h5>
                     {this.props.Skills.map(skill =>

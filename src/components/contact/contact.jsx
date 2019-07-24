@@ -10,6 +10,7 @@ class Contact extends Component {
                 <div className="info">
                     <h4>Phone: <a href="tel:714-264-2562">(714)264-2562</a></h4>
                     <h4>Email: <a href="mailto:evanallen13@gmail.com">evanallen13@gmail.com</a></h4>
+                    <h4>Location: Long Beach, CA</h4>
                 </div>
             </div>
          );
