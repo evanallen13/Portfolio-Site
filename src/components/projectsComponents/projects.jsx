@@ -4,7 +4,7 @@ import './project.css'
 class Project extends Component {
     render() { 
         return ( 
-            <div>   
+            <div className='cont'>   
             <div className="project">
                 <h4>{this.props.Title}</h4>
                 <img src={this.props.Img} alt="project" className="projectBigImg"></img>

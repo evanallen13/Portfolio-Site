@@ -1,7 +1,7 @@
 #aboutPage{
     background-color: rgb(45, 93, 124);
     color: #f3f0e2;
-    height: calc(100vh + 10px);
+    height: calc(100vh + 50px);
     text-align: center;
 }
 #aboutPage h1{
