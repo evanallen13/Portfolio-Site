@@ -1,12 +1,44 @@
 #aboutPage{
     background-color: rgb(45, 93, 124);
     color: #f3f0e2;
-    height: calc(100vh + 50px);
+    height: 55vh;
     text-align: center;
 }
 #aboutPage h1{
     margin: 0;
     color: #f3f0e2;
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 20px;
+}
+.progress{
+    width: 15vw;
+    margin: auto;
+    background-color: #f3f0e2;
+}
+.progress-bar{
+    width: 40%;
+    color: #f3f0e2;
+    background-color: rgb(239, 89, 57);
+}
+.row{
+    width: 35vw;
+    margin: 0 auto;
+}
+.col{
+    margin: 0;
+}
+
+.skill{
+    display: inline-block;
+}
+@media only screen and (max-height: 800px) {
+    #aboutPage{
+        height: calc(100vh + 25px)
+    }
+    #aboutPage h1{
+        padding-top: 50px;
+    }
+    .row{
+        width: 100vw;
+    }
 }

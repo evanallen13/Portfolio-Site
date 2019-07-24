@@ -7,6 +7,41 @@ class About extends Component {
         return (  
             <div id="aboutPage">
                 <h1>About</h1>
+                <h4>Me:</h4>
+                <div className="description">
+                    <p>I am a full stack developer.</p>
+                </div>
+                <h4>Stack:</h4>
+                <div className="skills row">
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/html5.png" alt="html"/>
+                        <p>html</p>
+                    </div>
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/css3.png" alt="css"/>
+                        <p>css</p>
+                    </div>
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/js.png" alt="Js"/>
+                        <p>JavaScript</p>
+                    </div>
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/react.png" alt="react"/>
+                        <p>React</p>
+                    </div>
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/firebase.png" alt="Firebase"/>
+                        <p>Firebase</p>
+                    </div>
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/node.png" alt="Node"/>
+                        <p>NodeJs</p>
+                    </div>
+                    <div className="skill col">
+                        <img src="../../imgs/skillimgs/bootstrap.png" alt="Bootstrap"/>
+                        <p>Boostrap</p>
+                    </div>
+                </div>
             </div>
         );
     }
