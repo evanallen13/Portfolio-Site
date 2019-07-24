@@ -5,10 +5,8 @@
     min-height: Calc(100vh + 50px);
     overflow: auto;
 }
-.cont{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-bottom: 20px;
+.experience{
+    text-align: center;
 }
 #projects h1{
     margin: 0;

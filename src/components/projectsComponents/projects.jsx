@@ -4,7 +4,7 @@ import './project.css'
 class Project extends Component {
     render() { 
         return ( 
-            <div className='cont'>   
+            <React.Fragment>
             <div className="project">
                 <h4>{this.props.Title}</h4>
                 <img src={this.props.Img} alt="project" className="projectBigImg"></img>
@@ -25,7 +25,7 @@ class Project extends Component {
                     <h5>What I Learned:</h5>
                     <p className="learned">{this.props.Learned}</p>
                 </div>
-            </div>
+            </React.Fragment> 
         );
     }  
 }

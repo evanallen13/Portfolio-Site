@@ -10,9 +10,9 @@ class NavBar extends Component {
     render() { 
         return (  
             <div id="Nav"> 
-                <a href="#projects"><button className="NavBtn">Projects</button></a>
-                <a href="#aboutPage"><button className="NavBtn">About</button></a>
-                <a href="#contact"><button className="NavBtn">Contact</button></a>
+                <a href="projects"><button className="NavBtn">Projects</button></a>
+                <a href="aboutPage"><button className="NavBtn">About</button></a>
+                <a href="contact"><button className="NavBtn">Contact</button></a>
                 <a href="../../resume.pdf" download="Evan_Allen_Resume"><button className="NavBtn">Resume.pdf</button></a>
             </div>
         );
