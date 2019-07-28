@@ -22,4 +22,11 @@ export const projectsArray = [
         Skills: [javascript,react,html5,css3,node,bootstrap],
         Learned: "This is the website that you are currently on. All the projects and skill buttons are mapped through state.",
     },
+    {Title: "Portfolio Website",
+        Img: "../../imgs/projects/portfolio.png",
+        Github: "https://github.com/evanallen13/Portfolio-Site",
+        Hosting: "https://www.evanallen13.com//",
+        Skills: [javascript,react,html5,css3,node,bootstrap],
+        Learned: "This is the website that you are currently on. All the projects and skill buttons are mapped through state.",
+    },
   ]

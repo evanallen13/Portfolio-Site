@@ -8,20 +8,17 @@ class ProjectsPage extends Component {
         return ( 
             <div id="projects">
                 <h1>Projects</h1>
-                <div className="projectContainer container">
-                    <div className="row justify-content-center">
-                            {projectsArray.map(project =>
-                                <Project
-                                    key={project.Title}
-                                    Title={project.Title}
-                                    Img={project.Img}
-                                    Github={project.Github}
-                                    Hosting={project.Hosting}
-                                    Skills={project.Skills}
-                                    Learned={project.Learned}>
-
-                                </Project>)}
-                    </div>
+                <div className="d-flex flex-wrap justify-content-center">
+                    {projectsArray.map(project =>
+                        <Project
+                            key={project.Title}
+                            Title={project.Title}
+                            Img={project.Img}
+                            Github={project.Github}
+                            Hosting={project.Hosting}
+                            Skills={project.Skills}
+                            Learned={project.Learned}>
+                        </Project>)}
                 </div>
             </div>
          );
