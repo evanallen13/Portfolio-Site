@@ -22,4 +22,11 @@ export const projectsArray = [
         Skills: [javascript,react,html5,css3,node,bootstrap],
         Learned: "This is the website that you are currently on. All the projects and skill buttons are mapped through state.",
     },
+    {Title: "React-Firebase Chat App",
+        Img: "../../imgs/projects/chat.png",
+        Github: "https://github.com/evanallen13/React-Firebase-Chat",
+        Hosting: "https://infallible-spence-915593.netlify.com/",
+        Skills: [javascript,react,firebase,html5,css3,node,bootstrap],
+        Learned: "This is a clone of Apple messager. I used this to learn how to minipluate the state of compnent using Firebase. Also it uses Firebase Auth.",
+    },
   ]
