@@ -76,9 +76,13 @@ h5{
 }
 
 @media all and (max-width: 1050px){
+    #projects{
+        height: 100%;
+    }
     .learned{
         width: 50vw;
         margin: 0;
+        margin-bottom: 10px;
     }
 
 }
