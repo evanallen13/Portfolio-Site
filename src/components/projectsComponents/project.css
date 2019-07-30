@@ -83,7 +83,7 @@ h5{
         margin: 0;
         margin-bottom: 10px;
     }
-    .project-links:hover{
+    .overplayContainer:hover .project-links{
         opacity: .7;
     }
     .project-links a {
