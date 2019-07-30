@@ -25,7 +25,7 @@ export const projectsArray = [
     {Title: "React-Firebase Chat App",
         Img: "../../imgs/projects/chat.png",
         Github: "https://github.com/evanallen13/React-Firebase-Chat",
-        Hosting: "https://infallible-spence-915593.netlify.com/",
+        Hosting: "https://bacon-21ca3.firebaseapp.com/",
         Skills: [javascript,react,firebase,html5,css3,node,bootstrap],
         Learned: "This is a clone of Apple messager. I used this to learn how to minipluate the state of compnent using Firebase. Also it uses Firebase Auth.",
     },
