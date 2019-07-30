@@ -59,7 +59,6 @@ h5{
 }
 
 
-
 .learned{
     margin: 0 auto;
     width: 20vw;
@@ -84,9 +83,10 @@ h5{
         margin: 0;
         margin-bottom: 10px;
     }
+    .project-links:hover{
+        opacity: .7;
+    }
     .project-links a {
-        top: 50%;
-        left: 50%;
         margin-left: 10px;
         margin-right: 10px;
         padding: 0;

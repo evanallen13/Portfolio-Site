@@ -15,7 +15,7 @@ class Project extends Component {
                      <a href={this.props.Hosting} target="_blank" rel="noopener noreferrer">
                          <img src="../../imgs/projects/eye.png" alt="git" className="projectImg"/>
                      </a>
-                </div>
+                    </div>
                 </div>
                 <div className="experience">
                 <h5>Skills:</h5>
