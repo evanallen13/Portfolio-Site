@@ -84,6 +84,16 @@ h5{
         margin: 0;
         margin-bottom: 10px;
     }
+    .project-links a {
+        top: 50%;
+        left: 50%;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 0;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
 
 }
 
