@@ -93,5 +93,8 @@ h5{
         width: 90vw;
         margin: 0 auto;
     }
+    .projectBigImg{
+        width: 95vw;
+    }
 
 }
