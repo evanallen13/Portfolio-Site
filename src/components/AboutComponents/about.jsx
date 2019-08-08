@@ -7,9 +7,15 @@ class About extends Component {
         return (  
             <div id="aboutPage">
                 <h1>About</h1>
-                <h4>Me:</h4>
+                <div>
+                <h2>Evan Allen</h2>
+                <div className="info">
+                    <h4>Phone: <a href="tel:714-264-2562">(714)264-2562</a></h4>
+                    <h4>Email: <a href="mailto:evanallen13@gmail.com">evanallen13@gmail.com</a></h4>
+                </div>
+            </div>
                 <div className="description">
-                    <p>I am a full stack developer.</p>
+                    <p>I am a full stack developer living in the Los Angeles area.</p>
                 </div>
                 <h4>Stack:</h4>
                 <div className="skills row">

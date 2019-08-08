@@ -12,7 +12,7 @@ function App() {
       <HeaderDiv></HeaderDiv>
       <ProjectsPage></ProjectsPage>
       <About></About>
-      <Contact></Contact>
+      {/* <Contact></Contact> */}
     </div>
   );
 }
