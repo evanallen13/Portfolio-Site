@@ -30,7 +30,7 @@ export const projectsArray = [
         Learned: "This is a clone of Apple messager. I used this to learn how to minipluate the state of compnent using Firebase. Also it uses Firebase Auth.",
     },
     {Title: "React Todo",
-        Img: "../../imgs/projects/todo.png",
+        Img: "../../imgs/projects/todo.gif",
         Github: "https://github.com/evanallen13/React-Todo",
         Hosting: "https://zen-johnson-a4f7b0.netlify.com/",
         Skills: [javascript,react,firebase,html5,css3,node,bootstrap],
