@@ -29,4 +29,11 @@ export const projectsArray = [
         Skills: [javascript,react,firebase,html5,css3,node,bootstrap],
         Learned: "This is a clone of Apple messager. I used this to learn how to minipluate the state of compnent using Firebase. Also it uses Firebase Auth.",
     },
+    {Title: "React Todo",
+        Img: "../../imgs/projects/todo.png",
+        Github: "https://github.com/evanallen13/React-Todo",
+        Hosting: "https://zen-johnson-a4f7b0.netlify.com/",
+        Skills: [javascript,react,firebase,html5,css3,node,bootstrap],
+        Learned: "I built this todo web app after reading a article on Medium about React interview code tests. Because this is a simple project I use it to test new implementations. ",
+    },
   ]
