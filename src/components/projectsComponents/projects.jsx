@@ -18,12 +18,12 @@ class Project extends Component {
                     </div>
                 </div>
                 <div className="experience">
+                <h5>What I Learned:</h5>
+                     <p className="learned">{this.props.Learned}</p>
                 <h5>Skills:</h5>
                      {this.props.Skills.map(skill =>
                          <img src={skill} alt="skill" className='skill'></img>
                      )}
-                     <h5>What I Learned:</h5>
-                     <p className="learned">{this.props.Learned}</p>
                  </div>
             </div>
         );

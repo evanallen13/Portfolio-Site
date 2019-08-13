@@ -1,7 +1,7 @@
 #projects{
     background-color: #f3f0e2;
     text-align: center;
-    height: Calc(100vh + 60px);
+    height: 100%;
     overflow: auto;
     margin: 0;
 }
@@ -23,46 +23,18 @@ h5{
     padding-left: 0;
     padding-right: 0;
 }
-/* Overlay */
-.overplayContainer{
-    position: relative;
-    width: 100%;
-    max-width: 400px;
-}
-.project-links{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .3s ease;
-    background-color: #f3f0e2;
-}
-.project-links a {
-    color: white;
-    font-size: 160px;
-    padding-top: 100%;
-    top: 50%;
-    left: 50%;
-    margin-left: 10px;
+.overplayContainer a{
     margin-right: 10px;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-  }
-  
-.overplayContainer:hover .project-links{
-    opacity: .7;
+    margin-left: 10px;
 }
-
 
 .learned{
     margin: 0 auto;
     width: 20vw;
     word-wrap: break-word;
+}
+.learned h5{
+    margin-top: 5px;
 }
 
 .project h4{
@@ -78,13 +50,6 @@ h5{
     #projects{
         height: 100%;
     }
-    .project-links a {
-        padding: 0;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-      }
-
 }
 
 

@@ -11,7 +11,7 @@ class ProjectsPage extends Component {
                 <div className="d-flex flex-wrap justify-content-center">
                     {projectsArray.map(project =>
                         <Project
-                            key={project.Title}
+                            key={project.Key}
                             Title={project.Title}
                             Img={project.Img}
                             Github={project.Github}
