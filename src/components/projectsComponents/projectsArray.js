@@ -44,7 +44,7 @@ export const projectsArray = [
         Key: 5,
         Img: "../../imgs/projects/weather.png",
         Github: "https://github.com/evanallen13/React-Iphone-Weather-App-Clone",
-        Hosting: "https://vigilant-wozniak-d6b3bd.netlify.com/",
+        Hosting: "https://wizardly-spence-f3a746.netlify.com/",
         Skills: [javascript,react,html5,css3,node,bootstrap],
         Learned: " This is a weather app I built using a weather API ",
     },
