@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './about.css'
+import ContactForm from './form'
 
 class About extends Component {
     state = {  }
@@ -47,6 +48,7 @@ class About extends Component {
                         <img src="../../imgs/skillimgs/bootstrap.png" alt="Bootstrap"/>
                         <p>Boostrap</p>
                     </div>
+                    {/* <ContactForm></ContactForm> */}
                 </div>
             </div>
         );
